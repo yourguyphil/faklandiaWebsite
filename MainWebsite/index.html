@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faklandia Brewing</title>
+
+  <!-- Vendor Stylesheets -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/fontawesome.css">
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/bootstrap.min.css">
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/animate.min.css">
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/magnific-popup.css">
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/slick.css">
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/slick-theme.css">
+  <!-- Icon Fonts -->
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/flaticon.css">
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/all.min.css">
+
+  <!-- Classica Style sheet -->
+  <link rel="stylesheet" href="https://faklandia.blob.core.windows.net/$web/style.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://faklandia.blob.core.windows.net/$web/lizard_lizard-round-1.png">
+
+</head>
+
+<body>
+
+  <!-- Preloader Start -->
+  <div class="ct-preloader">
+    <div class="ct-preloader-inner">
+      <div class="lds-ripple"><div></div><div></div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Aside (Mobile Navigation) -->
+  <aside class="main-aside">
+    <a class="navbar-brand" href="index.html"> <img src="https://faklandia.blob.core.windows.net/$web/FKL-WP-Header-Logo.png" alt="logo"> </a>
+
+    <div class="aside-scroll">
+      <ul>
+        <!-- <li class="menu-item menu-item-has-children">
+          <a href="#">Home Pages</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="index.html">Home v1</a> </li>
+            <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+            <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+            <li class="menu-item"> <a href="home-v4.html">Home v4</a> </li>
+          </ul>
+        </li> -->
+        <li class="menu-item menu-item-has-children">
+          <a href="#">Blog</a>
+          <ul class="submenu">
+            <li class="menu-item menu-item-has-children">
+              <a href="blog-grid.html">Blog Archive</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="blog-grid.html">Grid View</a> </li>
+                <li class="menu-item"> <a href="blog-list.html">List View</a> </li>
+                <li class="menu-item"> <a href="blog-masonry.html">Masonry</a> </li>
+              </ul>
+            </li>
+            <li class="menu-item"> <a href="blog-single-v1.html">Blog Single</a></li>
+          </ul>
+        </li>
+        <!-- <li class="menu-item menu-item-has-children">
+          <a href="#">Pages</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="about-us.html">About Us</a> </li>
+            <li class="menu-item"> <a href="login.html">Login</a> </li>
+            <li class="menu-item"> <a href="register.html">Sign Up</a> </li>
+            <li class="menu-item"> <a href="checkout.html">Checkout</a> </li>
+            <li class="menu-item"> <a href="cart.html">Cart</a> </li>
+            <li class="menu-item"> <a href="product-details.html">Product Details</a> </li>
+          </ul>
+        </li> -->
+        <li class="menu-item">
+          <a href="menu.html">Menu</a>
+        </li>
+        <li class="menu-item">
+          <a href="shop.html">Shop</a>
+        </li>
+        <li class="menu-item">
+          <a href="contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </aside>
+  <div class="aside-overlay aside-trigger"></div>
+
+  <!-- Header Start -->
+  <header class="main-header can-sticky header-1">
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html"> <img src="https://faklandia.blob.core.windows.net/$web/FKL-WP-Header-Logo.png" alt="logo"> </a>
+        <!-- Menu -->
+        <ul class="navbar-nav">
+          <li class="menu-item">
+            <a href="menu.html">Brews</a>
+          </li>
+          <li class="menu-item">
+            <a href="menu.html">Menu</a>
+          </li>
+          <li class="menu-item">
+            <a href="menu.html">Events</a>
+          </li>
+          <!-- <li class="menu-item">
+            <a href="shop.html">Shop</a>
+          </li> -->
+          <li class="menu-item">
+            <a href="contact-us.html">Contact Us</a>
+          </li>
+          <!-- <li class="menu-item menu-item-has-children">
+            <a href="#">Home Pages</a>
+            <ul class="submenu">
+              <li class="menu-item"> <a href="index.html">Home v1</a> </li>
+              <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+              <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+              <li class="menu-item"> <a href="home-v4.html">Home v4</a> </li>
+            </ul>
+          </li> -->
+          <li class="menu-item menu-item-has-children">
+            <a href="#">Blog</a>
+            <ul class="submenu">
+              <li class="menu-item menu-item-has-children">
+                <a href="blog-grid.html">Blog Archive</a>
+                <ul class="submenu">
+                  <li class="menu-item"> <a href="blog-grid.html">Grid View</a> </li>
+                  <li class="menu-item"> <a href="blog-list.html">List View</a> </li>
+                  <li class="menu-item"> <a href="blog-masonry.html">Masonry</a> </li>
+                </ul>
+              </li>
+              <li class="menu-item"> <a href="blog-single-v1.html">Blog Single</a></li>
+            </ul>
+          </li>
+          <!-- <li class="menu-item menu-item-has-children">
+            <a href="#">Pages</a>
+            <ul class="submenu">
+              <li class="menu-item"> <a href="about-us.html">About Us</a> </li>
+              <li class="menu-item"> <a href="login.html">Login</a> </li>
+              <li class="menu-item"> <a href="register.html">Sign Up</a> </li>
+              <li class="menu-item"> <a href="checkout.html">Checkout</a> </li>
+              <li class="menu-item"> <a href="cart.html">Cart</a> </li>
+              <li class="menu-item"> <a href="product-details.html">Product Details</a> </li>
+            </ul>
+          </li> -->
+        </ul>
+
+        <!-- <div class="header-controls">
+          <ul class="header-controls-inner">
+            <li class="cart-dropdown-wrapper cart-trigger">
+              <i class="flaticon-shopping-bag"></i>
+            </li>
+            <li class="search-dropdown-wrapper search-trigger">
+              <i class="flaticon-search"></i>
+            </li>
+          </ul>
+          <div class="aside-toggler aside-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div> -->
+
+      </div>
+    </nav>
+
+  </header>
+  <!-- Header End -->
+
+  <!-- Banner Start -->
+  <div class="banner banner-3">
+
+    <!-- Slider Start -->
+    <div class="banner-slider-3">
+      <div class="banner-item dark-overlay dark-overlay-2" style="background-image: url('https://faklandia.blob.core.windows.net/$web/FaklandiaOwners.jpg')">
+        <div class="container">
+          <div class="banner-inner">
+            <h1 class="title text-white">Welcome to <span class="custom-primary">Faklandia </span> !</h1>
+            <p class="subtitle text-white">Come on down to Faklandia, have a beer, and get lost where imagination and reality meet.</p>
+            <a href="#" class="btn-custom primary"> See Menu <i class="fas fa-arrow-right"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="banner-item dark-overlay dark-overlay-2" style="background-image: url('https://faklandia.blob.core.windows.net/$web/GamingStore.jpg')">
+        <div class="container">
+          <div class="banner-inner">
+            <h1 class="title text-white">Food, Drink, and<span class="custom-primary"> Gaming</span> ! </h1>
+            <p class="subtitle text-white">Featuring the body slamming master himself Quinn Kotecki</p>
+            <a href="#" class="btn-custom primary"> View Gaming Events <i class="fas fa-arrow-right"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="banner-item dark-overlay dark-overlay-2" style="background-image: url('https://faklandia.blob.core.windows.net/$web/Beer.jpg')">
+        <div class="container">
+          <div class="banner-inner">
+            <h1 class="title text-white">Beer, Beer, and <span class="custom-primary"> more Beer!</span> </h1>
+            <p class="subtitle text-white">Beers you’d find ordinary, we take them to the next level and create the extraordinary.</p>
+            <a href="#" class="btn-custom primary"> See Drink Menu <i class="fas fa-arrow-right"></i> </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Slider End -->
+
+    <!-- Arrows Start -->
+    <div class="ct-arrows">
+      <div class="arrow-wrapper slider-prev">
+        <i class="fas fa-arrow-left"></i>
+        <div class="arrow-wrapper-content">
+          <h6>Previous</h6>
+        </div>
+      </div>
+      <div class="arrow-wrapper slider-next">
+        <div class="arrow-wrapper-content">
+          <h6>Next</h6>
+        </div>
+        <i class="fas fa-arrow-right"></i>
+      </div>
+    </div>
+    <!-- Arrows End -->
+
+  </div>
+  <!-- Banner End -->
+
+  <!-- Categories Section Start -->
+  <!-- <div class="section section-padding ct-categories ct-categories-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="#" class="ct-category">
+            <img src="https://faklandia.blob.core.windows.net/$web/YummyBeer.jpg" alt="category">
+            <div class="ct-category-body">
+              <h5>Made in House Brews</h5>
+              <h4>Absolutely Refreshing</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a href="#" class="ct-category">
+            <img src="https://faklandia.blob.core.windows.net/$web/Burger.jpg" alt="category">
+            <div class="ct-category-body">
+              <h5>Burgers</h5>
+              <h4>Juicy and Fresh</h4>
+            </div>
+          </a>
+          <a href="#" class="ct-category">
+            <img src="https://faklandia.blob.core.windows.net/$web/pizza.jpg" alt="category">
+            <div class="ct-category-body">
+              <h5>Pizza</h5>
+              <h4>Fresh from the Oven</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- Categories Section End -->
+
+  <!-- Menu Start -->
+  <section class="section pt-0 section-padding">
+    <br>
+    <div class="container">
+      <div class="section-title-wrap section-header text-center">
+        <h5>Hours</h5>
+        <h2 class="title">Tuesday - Sunday : 12:00AM - 12:00PM</h2>
+        <p class="subtitle">
+          3807 S Packard Ave Milwaukee, WI 53235
+        </p>
+      </div>
+
+      <ul class="nav justify-content-center" id="product-infoTab" role="tablist">
+        <li class="nav-item nav-item-icon">
+          <a class="nav-link active" id="menu-appetizers-tab" data-toggle="pill" href="#menu-appetizers" role="tab" aria-controls="menu-appetizers" aria-selected="true">
+            <img src="https://faklandia.blob.core.windows.net/$web/french-fries.png" style="filter: brightness(0) invert(1);">
+            <br>
+            <br>
+            Appetizers
+          </a>
+        </li>
+        <li class="nav-item nav-item-icon">
+          <a class="nav-link" id="menu-burgers-tab" data-toggle="pill" href="#menu-burgers" role="tab" aria-controls="menu-burgers" aria-selected="false">
+            <img src="https://faklandia.blob.core.windows.net/$web/burger.png" style="filter: brightness(0) invert(1);">
+            <br>
+            <br>
+            Burgers
+          </a>
+        </li>
+        <li class="nav-item nav-item-icon">
+          <a class="nav-link" id="menu-pizza-tab" data-toggle="pill" href="#menu-pizza" role="tab" aria-controls="menu-pizza aria-selected="false">
+            <img src="https://faklandia.blob.core.windows.net/$web/pizza.png" style="filter: brightness(0) invert(1);">
+            <br>
+            <br>
+            Pizza
+          </a>
+        </li>
+        <li class="nav-item nav-item-icon">
+          <a class="nav-link" id="menu-drinks-tab" data-toggle="pill" href="#menu-drinks" role="tab" aria-controls="menu-drinks" aria-selected="false">
+            <img src="https://faklandia.blob.core.windows.net/$web/beer.png" style="filter: brightness(0) invert(1);">
+            <br>
+            <br>
+            Drinks
+          </a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="product-infoTabContent">
+        <div class="tab-pane fade show active" id="menu-appetizers" role="tabpanel" aria-labelledby="menu-appetizers-tab">
+
+          <div class="row">
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://faklandia.blob.core.windows.net/$web/Garlic Bread.jpg" alt="product"></a>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Garlic Bread</a> </h5>
+                  <p class="product-price custom-secondary">$3.00</p>
+                  <p class="product-text">Freshly baked artisan bread, topped with herbs and cheese.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://faklandia.blob.core.windows.net/$web/Cheese.jpg" alt="product"></a>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Cheese Curds</a> </h5>
+                  <p class="product-price custom-secondary">$6.00</p>
+                  <p class="product-text">Deep fried cheese served with marinara dipping sauce.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://faklandia.blob.core.windows.net/$web/Ravioli.jpg" alt="product"></a>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Fried Cheese Ravioli Bites</a> </h5>
+                  <p class="product-price custom-secondary">$7.00</p>
+                  <p class="product-text">Deep fried ravioli served with marinara dipping sauce.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="menu-burgers" role="tabpanel" aria-labelledby="menu-burgers-tab">
+
+          <div class="row">
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-ingredients">
+                  <i class="flaticon-meat" data-toggle="tooltip" title="Meat"></i>
+                  <i class="flaticon-bread-roll" data-toggle="tooltip" title="Fresh Bun"></i>
+                  <i class="flaticon-broccoli" data-toggle="tooltip" title="Vegetables"></i>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Cheesy Bomb</a> </h5>
+                  <p class="product-price custom-secondary">8.99$</p>
+                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-ingredients">
+                  <i class="flaticon-fish" data-toggle="tooltip" title="Fish"></i>
+                  <i class="flaticon-bread-roll" data-toggle="tooltip" title="Fresh Bun"></i>
+                  <i class="flaticon-broccoli" data-toggle="tooltip" title="Vegetables"></i>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Fish Burger</a> </h5>
+                  <p class="product-price custom-secondary">12.00$ - 24.00$</p>
+                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-ingredients">
+                  <i class="flaticon-meat" data-toggle="tooltip" title="Meat"></i>
+                  <i class="flaticon-bread-roll" data-toggle="tooltip" title="Fresh Bun"></i>
+                  <i class="flaticon-broccoli" data-toggle="tooltip" title="Vegetables"></i>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">King Henry</a> </h5>
+                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
+                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="menu-drinks" role="tabpanel" aria-labelledby="menu-drinks-tab">
+
+          <div class="row">
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Iced Tea</a> </h5>
+                  <p class="product-price custom-secondary">8.99$</p>
+                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Mint & Lemon</a> </h5>
+                  <p class="product-price custom-secondary">12.00$ - 24.00$</p>
+                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+            <!-- Product Start -->
+            <div class="col-md-4">
+              <div class="ct-product">
+                <div class="ct-product-thumbnail">
+                  <a href="product-details.html"><img src="https://via.placeholder.com/350" alt="product"></a>
+                  <div class="ct-product-controls">
+                    <a href="product-details.html" data-toggle="tooltip" title="Select Options"> <i class="flaticon-filter"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Add to Cart"> <i class="flaticon-shopping-bag"></i> </a>
+                    <a href="#" data-toggle="tooltip" title="Compare"> <i class="flaticon-refresh"></i> </a>
+                  </div>
+                </div>
+                <div class="ct-product-body">
+                  <h5 class="product-title"> <a href="product-details.html">Orange Juice</a> </h5>
+                  <p class="product-price custom-secondary">32.00$ - 48.00$</p>
+                  <p class="product-text">Freshly baked buns with tomatoes, mayonaise, lettuce, bacon, 250 oz beef patties...</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product End -->
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Menu End -->
+
+  <!-- Blog Posts Start -->
+  <section class="section section-padding pt-0">
+    <div class="container">
+      <div class="section-title-wrap section-header text-center">
+        <h5>Latest News</h5>
+        <h2 class="title">From Our Blog</h2>
+        <p class="subtitle">
+          The latest and greatest news in all of Faklandia!
+        </p>
+      </div>
+
+      <div class="row">
+        <!-- Post Start -->
+        <div class="col-lg-4">
+          <article class="post">
+            <div class="post-thumbnail">
+              <a href="blog-single-v1.html"><img src="https://faklandia.blob.core.windows.net/$web/lizard_lizard-round-1.png" alt="blog post"></a>
+            </div>
+            <div class="post-meta">
+              <span>January 22, 2020</span>
+            </div>
+            <div class="post-body">
+              <h5 class="post-title"> <a href="blog-single-v1.html">After 3 years, Faklandia Brewing is getting a home in St. Francis</a> </h5>
+              <p class="post-text">
+                After brewing its beer at home and on other breweries’ systems for three years, Faklandia Brewery– launched in July 2016 by Nate Fakler and Ben Mantay – has finally found a home of its own.
+              </p>
+            </div>
+          </article>
+        </div>
+        <!-- Post End -->
+
+        <!-- Post Start -->
+        <div class="col-lg-4">
+          <article class="post">
+            <div class="post-thumbnail">
+              <a href="blog-single-v1.html">
+                <img src="https://faklandia.blob.core.windows.net/$web/funnyNate.jpg" alt="blog post">
+              </a>
+            </div>
+            <div class="post-meta">
+              <span>April 26, 2020</span>
+            </div>
+            <div class="post-body">
+              <h5 class="post-title"> <a href="blog-single-v1.html">Kickstarter Reaches Funding Goal!</a> </h5>
+              <p class="post-text">Thank you again for all of your love and support up to this point, and for years and years to come. We are truly thankful from the bottom's of our hearts to be able to share this dream with you, and we can't wait to see you in a few months, IN FAKLANDIA!!!</p>
+            </div>
+          </article>
+        </div>
+        <!-- Post End -->
+
+        <!-- Post Start -->
+        <div class="col-lg-4">
+          <article class="post">
+            <div class="post-thumbnail">
+              <a href="blog-single-v1.html"><img src="https://faklandia.blob.core.windows.net/$web/BurgerYummy.jpg" alt="blog post"></a>
+            </div>
+            <div class="post-meta">
+              <span>April 26, 2020</span>
+            </div>
+            <div class="post-body">
+              <h5 class="post-title"> <a href="blog-single-v1.html">Taste the glamorous double patty burger</a> </h5>
+              <p class="post-text">Yum</p>
+            </div>
+          </article>
+        </div>
+        <!-- Post End -->
+      </div>
+
+    </div>
+  </section>
+  <!-- Blog Posts End -->
+
+  <!-- Newsletter start -->
+  <section class="section bg-center bg-cover dark-overlay" style="background-image:url('https://faklandia.blob.core.windows.net/$web/FireCool.jpg')">
+    <div class="container">
+
+      <div class="ct-newsletter">
+
+        <div class="section-title-wrap section-header">
+          <h2 class="title">Join Our Newsletter</h2>
+          <p class="subtitle">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          </p>
+        </div>
+
+        <form method="post">
+          <input type="email" class="form-control" placeholder="Enter your email address" value="">
+          <button type="submit" class="btn-custom primary" name="button"> Submit <i class="far fa-paper-plane"></i> </button>
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Newsletter End -->
+
+  <!-- Footer Start -->
+  <footer class="ct-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 footer-widget">
+          <div class="footer-logo"> <img src="https://faklandia.blob.core.windows.net/$web/FKL-WP-Header-Logo.png" alt="classica"> </div>
+          <p> Open Tuesday - Sunday : 12:00AM - 12:00PM
+              3807 S Packard Ave Milwaukee, WI 53235</p>
+          <ul class="social-media">
+            <li> <a href="https://www.facebook.com/faklandia/"> <i class="fab fa-facebook-f"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+          </ul>
+        </div>
+        <div class="offset-xl-0 col-xl-2 offset-lg-1 offset-md-1 col-lg-3 col-md-3 col-sm-6 footer-widget">
+          <h5 class="widget-title">Top Brews</h5>
+          <ul>
+            <li> <a href="#">Liz Wizz</a> </li>
+            <li> <a href="#">Thuja</a> </li>
+            <li> <a href="#">Nox Atra</a> </li>
+            <li> <a href="#">Palladius</a> </li>
+            <li> <a href="#">Salamandra</a> </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 footer-widget">
+          <h5 class="widget-title">Legal</h5>
+          <ul>
+            <li> <a href="#">Privacy Policy</a> </li>
+            <li> <a href="#">Refund Policy</a> </li>
+            <li> <a href="#">Cookie Policy</a> </li>
+            <li> <a href="#">Order Policy</a> </li>
+            <li> <a href="#">Terms & Conditions</a> </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">Created with <i class="fas fa-heart"></i> by <a href="https://www.philipsnguyen.com/">Philips Nguyen</a> &copy; 2021 </p>
+        <ul>
+          <li> <a href="#">Contact Us</a> </li>
+          <li> <a href="#">About Us</a> </li>
+          <li> <a href="#">Menu</a> </li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer End -->
+  <!-- Vendor Scripts -->
+  <script src="https://faklandia.blob.core.windows.net/$web/jquery-3.4.1.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/popper.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/waypoint.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/bootstrap.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/jquery.magnific-popup.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/jquery.slimScroll.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/imagesloaded.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/jquery.steps.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/jquery.countdown.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/isotope.pkgd.min.js"></script>
+  <script src="https://faklandia.blob.core.windows.net/$web/slick.min.js"></script>
+
+  <!-- Classica Scripts -->
+  <script src="https://faklandia.blob.core.windows.net/$web/main.js"></script>
+
+</body>
+
+</html>
